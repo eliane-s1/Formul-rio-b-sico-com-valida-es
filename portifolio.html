@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <style>
+        
+        body {
+            background: linear-gradient(-120deg, #481875, #11031f);
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh; 
+            margin-top: 50px; 
+            margin-bottom: 50px; 
+        }
+
+        .form_box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 350px;
+        }
+
+        .form_box h1 {
+            margin-bottom: 9px;
+            text-align: center;
+        }
+
+        .form_box form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form_box label {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .form_box input[type="text"],
+        .form_box input[type="email"],
+        .form_box input[type="password"],
+        .form_box input[type="date"],
+        .form_box textarea {
+            height: 30px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            padding: 0 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            box-sizing: border-box; 
+            width: 80%; 
+        }
+
+        .form_box input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .form_box button {
+            height: 40px;
+            border: none;
+            border-radius: 4px;
+            background-color: #af4c51;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form_box button:hover {
+            background-color: #45a049;
+        }
+
+        .invalid-feedback {
+            display: none;
+            color: red;
+            font-size: 14px;
+        }
+
+        input:invalid + .invalid-feedback {
+            display: block;
+        }
+        .conclusao {
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form_box">
+            <h1>Cadastro de Usuário</h1>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="username">Nome:</label>
+                    <input type="text" id="username" name="username" placeholder="Nome de usuário" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <div>Nunca compartilharemos seu email com terceiros.</div>
+<br>                    
+                </div>
+                <div class="mb-3">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required style="width: 80%">
+                </div>
+                <div class="mb-3">
+                    <label for="confirmar-senha">Confirmar senha:</label>
+                    <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Senha" required style="width: 80%">
+                </div>
+                <div class="mb-3">
+                    <label>Gênero:</label>
+                    <div class="gender-options">
+                        <input type="radio" id="genero-masculino" name="genero" value="Masculino" required>
+                        <label for="genero-masculino">Masculino</label>
+                        <input type="radio" id="genero-feminino" name="genero" value="Feminino" required>
+                        <label for="genero-feminino">Feminino</label>
+                        <input type="radio" id="genero-outro" name="genero" value="Outro" required>
+                        <label for="genero-outro">Outro</label>
+                    </div>
+<br>                    
+                </div>
+                <div class="mb-3">
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento" required style="width: 80%">
+                </div>
+                <div class="mb-3">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+                <div class="mb-3">
+                    <label for="pais">País:</label>
+                    <input type="text" id="pais" name="pais">
+                </div>
+                <div class="mb-3">
+                    <button type="submit">Cadastro</button>
+                </div>
+
+                
+            </form>
+        </div>
+    </form>
+</div>
+</div>
+
+    <div class="conclusao">
+     <p>Adorei fazer este portifólio, pois pude praticar e aprimorar meus conhecimentos, assim como fazer a estilização no próprio html.</p>
+</div>
+</body>
+</html>
